@@ -1,9 +1,13 @@
 {
   "name": "lazy-ng-zone",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Postpone zone download and bootstrap.",
   "main": "dist/lazy-ng-zone.js",
   "types": "dist/lazy-ng-zone.d.ts",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/razronen/lazy-ng-zone"
+  },
   "scripts": {
     "build": "webpack && npm run copy_types",
     "copy_types": "cp ./src/index.d.ts ./dist/lazy-ng-zone.d.ts"
