@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "noImplicitAny": false,
+      "module": "esnext",
+      "noEmitOnError": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "rootDir": ".",
+      "moduleResolution": "node",
+      "lib": [ "es2018", "dom" ],
+      "resolveJsonModule": true
+    }
+  }

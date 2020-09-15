@@ -1,0 +1,29 @@
+{
+  "name": "lazy-ng-zone",
+  "version": "1.0.7",
+  "description": "Postpone zone download and bootstrap.",
+  "main": "dist/lazy-ng-zone.js",
+  "types": "dist/lazy-ng-zone.d.ts",
+  "scripts": {
+    "build": "webpack && npm run copy_types",
+    "copy_types": "cp ./src/index.d.ts ./dist/lazy-ng-zone.d.ts"
+  },
+  "keywords": [
+    "angular",
+    "performance",
+    "zone"
+  ],
+  "author": "razronen1@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "typescript": "3.9"
+  },
+  "dependencies": {
+    "@angular/core": "*",
+    "rxjs": "*",
+    "zone.js": "*"
+  }
+}
