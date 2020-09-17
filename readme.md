@@ -29,6 +29,7 @@ Since Angular bootstrap is independent of zone, there's no reason to have its de
     ```
 
 3. Comment this line in **polyfills.ts**:
+
     `// import 'zone.js/dist/zone';  // Included with Angular CLI.`
 
 

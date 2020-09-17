@@ -1,6 +1,6 @@
 {
-  "name": "lazy-ng-zone",
-  "version": "1.0.8",
+  "name": "ng-lazy-zone",
+  "version": "1.0.10",
   "description": "Postpone zone download and bootstrap.",
   "main": "dist/lazy-ng-zone.js",
   "types": "dist/lazy-ng-zone.d.ts",
