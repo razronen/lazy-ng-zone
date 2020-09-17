@@ -12,7 +12,7 @@ Since Angular bootstrap is independent of zone, there's no reason to have its de
 
 ## How to use this package?
 
-`npm install --save-dev lazy-ng-zone`
+`npm install --save-dev ng-lazy-zone`
 
 1. Add this provider in your **AppModule**:
 
